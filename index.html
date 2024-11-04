@@ -11,7 +11,28 @@
 </header>
 <body>
     <div>
-        <span>Ceci est une application de gestion de budget</span>
+        <span>Ceci est une application de gestion de budget</span><br><br>
+        <div>
+            <label for="addRevenueName">Nom du revenue :</label>
+            <input type="text" id="addRevenueName" placeholder="Entrez le nom d'un revenue">
+            <label for="addRevenueNb">Valeur du revenue :</label>
+            <input type="number" id="addRevenueNb" placeholder="Entrez le montant du revenue">
+            <button id="addRevenueButton">Ajouter</button><br>
+            <label for="addExpenseName">Nom de la dépense :</label>
+            <input type="text" id="addExpenseName" placeholder="Entrez le nom d'une dépense">
+            <label for="addExpenseNb">Valeur de la dépense :</label>
+            <input type="number" id="addExpenseNb" placeholder="Entrez le montant de la dépense">
+            <button id="addExpenseButton">Ajouter</button><br>
+        </div>
+        <br><span>Ici nous pouvons les dépense et les revenues :</span><br>
+        <div class="container">
+            <div class="containerRevenue" id="revenueList">
+                <h2>Revenus</h2>
+            </div>
+            <div class="containerExpense" id="expenseList">
+                <h2>Dépenses</h2>
+            </div>
+        </div>
     </div>
     
     <script src="script.js"></script>

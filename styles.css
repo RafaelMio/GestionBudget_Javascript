@@ -1,0 +1,32 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; /* Espacement entre les deux colonnes */
+    width: 100%;
+}
+
+/* Style de chaque conteneur de revenus et de dépenses */
+.containerRevenue, .containerExpense {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+/* Revenus : couleur de fond et texte aligné */
+.revenue {
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #194900;
+    background-color: #d4f3d9;
+    border-radius: 4px;
+}
+
+/* Dépenses : couleur de fond et texte aligné */
+.expense {
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #5c0202;
+    background-color: #f8d7da;
+    border-radius: 4px;
+}
