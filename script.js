@@ -37,7 +37,7 @@ function createOperationDiv(name, number, type) {
         productDiv.classList.add('expense');
         expenseList.appendChild(productDiv);
     }
-    productDiv.textContent = `${type} : ${name} - Montant : ${number} €`;
+    productDiv.textContent = `${name} - Montant : ${number} €`;
 }
 
 addRevenueButton.addEventListener('click', addRevenue);
